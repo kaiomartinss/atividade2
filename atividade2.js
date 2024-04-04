@@ -14,7 +14,7 @@ function solicitarDadosPessoa() {
       pessoas.push({ altura: parseFloat(altura), sexo });
       numPessoas++;
 
-      if (numPessoas < 5) {
+      if (numPessoas < 15) {
         solicitarDadosPessoa();
       } else {
         rl.close();
